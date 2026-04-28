@@ -59,6 +59,18 @@ const Footer = () => {
 
                 <div className="pt-12 border-t border-white/5 flex flex-col md:flex-row justify-between items-center gap-6 text-[10px] uppercase tracking-[0.3em] text-white/20">
                     <p>© 2026 Mist Peaks Resort. All Rights Reserved.</p>
+                    <p>
+                        Designed and developed by{' '}
+                        <a
+                            href="https://vedicdevs.com"
+                            className="text-white/70 hover:text-white transition-colors"
+                            target="_blank"
+                            rel="noreferrer"
+                        >
+                            Vedic Devs
+                        </a>{' '}
+                        in India
+                    </p>
                     <div className="flex gap-8">
                         <a href="#" className="hover:text-white transition-colors">Privacy Policy</a>
                         <a href="#" className="hover:text-white transition-colors">Terms of Service</a>
